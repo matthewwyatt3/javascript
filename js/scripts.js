@@ -39,5 +39,10 @@ const rand = Math.floor((Math.random() * 10 ) + 1);
 // prompt(rand);
 
 // accepts the users input, then alerts that input
-let name = prompt("please enter your name:");
-alert(name);
+let firstName = prompt("please enter your first name:");
+console.log(firstName);
+let lastName = prompt("Please enter your last name:");
+alert(lastName);
+let birthday = prompt("Please enter your date of birth:");
+window.confirm(birthday);
+alert(birthday);
